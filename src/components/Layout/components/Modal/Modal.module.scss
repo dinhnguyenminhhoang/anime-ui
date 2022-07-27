@@ -18,7 +18,7 @@
   z-index: 1;
 }
 .modal__inner {
-  margin: 10px;
+  margin: 20px;
   width: auto;
   font-weight: 600;
   color: rgba(18, 16, 16, 0.896);
@@ -53,6 +53,7 @@
 .login {
   margin-right: 20px;
   position: relative;
+  cursor: pointer;
   &::after {
     position: absolute;
     display: block;
@@ -64,11 +65,17 @@
     right: -10px;
   }
 }
-.input-noty {
+.register {
+  cursor: pointer;
+}
+.input_noty {
   display: flex;
   justify-content: space-between;
   font-size: 1.2rem;
   margin-bottom: 2px;
+}
+.password_input {
+  margin-top: 8px;
 }
 .input-noty:last-child {
   margin-top: 3px;
@@ -84,7 +91,7 @@
 .input-form {
   width: 100%;
   border: 1px var(--font-color) solid;
-  padding: 6px;
+  padding: 6px 29px 6px 6px;
   border-radius: 4px;
   position: relative;
 }
@@ -94,4 +101,74 @@
   right: 10px;
   top: 50%;
   transform: translateY(-50%);
+}
+.note-form {
+  display: flex;
+  align-items: center;
+}
+.form__wrapper {
+  display: flex;
+  justify-content: space-between;
+  color: var(--font-color);
+  margin-top: 4px;
+  font-size: 1.4rem;
+  font-weight: 400;
+  filter: contrast(1.5);
+}
+.input-check {
+  color: var(--font-color);
+  border-color: var(--font-color);
+}
+.memory-input {
+  margin-left: 3px;
+}
+.forget__password {
+  color: rgba(18, 16, 16, 0.896);
+  padding-bottom: 1px;
+  border-bottom: 1px currentColor dashed;
+}
+.login-btn {
+  background-color: var(--font-color);
+  width: 100%;
+  padding: 6px 8px;
+  margin-top: 6px;
+  border-radius: 5px;
+  cursor: pointer;
+  &:hover {
+    filter: contrast(1.75);
+  }
+}
+.login-title {
+  color: rgba(18, 16, 16, 0.78);
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+.socal-form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  position: relative;
+}
+.socal-wrapper {
+  position: relative;
+  color: rgba(18, 16, 16, 0.78);
+  &:hover {
+    filter: contrast(1.75);
+  }
+}
+.socal-btn {
+  background-color: var(--font-color);
+  padding: 6px 8px;
+  margin: 4px 0;
+  width: 100%;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.icon-socal {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 6px;
+  color: var(--white);
+  font-size: 1.4rem;
 }

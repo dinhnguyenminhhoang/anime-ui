@@ -6,7 +6,6 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import classNames from "classnames/bind";
-import Button from "../Button";
 import styles from "./Modal.module.scss";
 const cx = classNames.bind(styles);
 function Modal() {
@@ -34,12 +33,16 @@ function Modal() {
             </button>
           </div>
           <div className={cx("form__input")}>
-            <div className={cx("input-noty")}>
+            <div className={cx("input_noty")}>
               <span className={cx("name__login")}>Tên đăng nhập</span>
               <span className={cx("rule-input")}>từ 6 đến 24 kí tự</span>
             </div>
             <div className={cx("input-wrapper")}>
-              <input placeholder="Tên..." className={cx("input-form")} />
+              <input
+                spellCheck={false}
+                placeholder="Tên..."
+                className={cx("input-form")}
+              />
               <button className={cx("input--btn")}>
                 <FontAwesomeIcon
                   icon={faCircleUser}
@@ -47,12 +50,13 @@ function Modal() {
                 />
               </button>
             </div>
-            <div className={cx("input-noty")}>
+            <div className={cx(styles.input_noty, styles.password_input)}>
               <span className={cx("name__login")}>Mật Khẩu</span>
               <span className={cx("rule-input")}>từ 6 đến 30 kí tự</span>
             </div>
             <div className={cx("input-wrapper")}>
               <input
+                spellCheck={false}
                 className={cx("input-form")}
                 type="password"
                 placeholder="pass..."
@@ -64,23 +68,36 @@ function Modal() {
           </div>
           <div className={cx("form__wrapper")}>
             <div className={cx("note-form")}>
-              <input type="checkbox" />
+              <input type="checkbox" className={cx("input-check")} />
               <span className={cx("memory-input")}>Ghi nhớ</span>
             </div>
             <a className={cx("forget__password")} href="https://vuighe.net/">
               Quên mật Khẩu
             </a>
           </div>
-          <Button content="Đăng Nhập" />
+          <button className={cx("login-btn")}>
+            <span className={cx("login-title")}>Đăng Nhập</span>
+          </button>
           <div className={cx("socal-form")}>
-            <Button content="Đăng Nhập Với Facebook" />
-            <button className={cx("face-btn")}>
-              <FontAwesomeIcon icon={faFacebook} className={cx("icon-face")} />
-            </button>
-            <Button content="Đăng Nhập với Facebook" />
-            <button className={cx("google-btn")}>
-              <FontAwesomeIcon icon={faGoogle} className={cx("icon-google")} />
-            </button>
+            <div className={cx("socal-wrapper")}>
+              <button className={cx("socal-btn")}>
+                <span className={cx("title-face")}>Đăng Nhập Với Facebook</span>
+              </button>
+              <button className={cx("face-btn")}>
+                <FontAwesomeIcon
+                  icon={faFacebook}
+                  className={cx("icon-socal")}
+                />
+              </button>
+            </div>
+            <div className={cx("socal-wrapper")}>
+              <button className={cx("socal-btn")}>
+                <span className={cx("google-title")}>Đăng Nhập với google</span>
+              </button>
+              <button className={cx("google-btn")}>
+                <FontAwesomeIcon icon={faGoogle} className={cx("icon-socal")} />
+              </button>
+            </div>
           </div>
         </div>
       </div>

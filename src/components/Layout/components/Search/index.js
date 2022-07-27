@@ -69,7 +69,6 @@ function Search({ children }) {
       <button className={cx("btn-loading")}>
         <FontAwesomeIcon icon={faXmarkCircle} className={cx("icon-close")} />
       </button>
-      <Modal />
     </div>
   );
 }
