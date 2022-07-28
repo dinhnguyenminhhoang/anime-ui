@@ -1,9 +1,9 @@
 import classNames from "classnames/bind";
 import styles from "./Search.module.scss";
 import { useState, useRef, useEffect } from "react";
+import { useDebounce } from "~/hooks";
 import Tippy from "@tippyjs/react/headless";
 import Notifycation from "../Notifycation/Notifycation";
-import { Wrapper as PopperWrapper } from "~/components/Layout/components/Popper";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faMagnifyingGlass,
@@ -18,6 +18,7 @@ function Search({ children }) {
   const [showResults, setShowReults] = useState(true);
   const [loading, setLoading] = useState(false);
   const inputRef = useRef();
+  const debounce = useDebounce(searchValue, 500);
   const handleChangeInput = (e) => {
     setSearchValue(e.target.value);
   };
@@ -30,13 +31,13 @@ function Search({ children }) {
     setShowReults(false);
   };
   useEffect(() => {
-    if (!searchValue.trim()) {
+    if (!debounce.trim()) {
       setSearch([]);
       return;
     }
     setLoading(true);
     fetch(
-      `https://tiktok.fullstack.edu.vn/api/users/search?q=${searchValue}&type=less`
+      `https://tiktok.fullstack.edu.vn/api/users/search?q=${debounce}&type=less`
     )
       .then((res) => res.json())
       .then((res) => {
@@ -46,7 +47,7 @@ function Search({ children }) {
       .catch(() => {
         setLoading(false);
       });
-  }, [searchValue]);
+  }, [debounce]);
   return (
     <div className={cx("popper__wrapper")}>
       <Tippy
