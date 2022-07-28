@@ -16,21 +16,42 @@ function Search({ children }) {
   const [searchValue, setSearchValue] = useState("");
   const [search, setSearch] = useState([]);
   const [showResults, setShowReults] = useState(true);
+  const [loading, setLoading] = useState(false);
   const inputRef = useRef();
   const handleChangeInput = (e) => {
     setSearchValue(e.target.value);
   };
-  const handleHideResults = () => {
+  const handlClose = () => {
+    setSearchValue("");
+    setSearch([]);
+    inputRef.current.focus();
+  };
+  const handleHideRsults = () => {
     setShowReults(false);
   };
   useEffect(() => {
-    setTimeout(() => {
-      setSearch([1, 2, 3]);
-    }, 1000);
-  }, []);
+    if (!searchValue.trim()) {
+      setSearch([]);
+      return;
+    }
+    setLoading(true);
+    fetch(
+      `https://tiktok.fullstack.edu.vn/api/users/search?q=${searchValue}&type=less`
+    )
+      .then((res) => res.json())
+      .then((res) => {
+        setSearch(res.data);
+        setLoading(false);
+      })
+      .catch(() => {
+        setLoading(false);
+      });
+  }, [searchValue]);
   return (
     <div className={cx("popper__wrapper")}>
       <Tippy
+        onClickOutside={handleHideRsults}
+        visible={search.length > 0 && showResults}
         interactive
         placement="bottom"
         render={(attrs) => (
@@ -38,11 +59,9 @@ function Search({ children }) {
             {/* <span className={cx("search__empty")}>
               Nhập tên anime để tìm kiếm
             </span> */}
-            <Notifycation />
-            <Notifycation />
-            <Notifycation />
-            <Notifycation />
-            <Notifycation />
+            {search.map((result) => (
+              <Notifycation key={result.id} data={result} />
+            ))}
           </div>
         )}
       >
@@ -63,12 +82,16 @@ function Search({ children }) {
           className={cx("icon__search")}
         />
       </button>
-      <button className={cx("btn-loading")}>
-        <FontAwesomeIcon icon={faSpinner} className={cx("icon-loading")} />
-      </button>
-      <button className={cx("btn-loading")}>
-        <FontAwesomeIcon icon={faXmarkCircle} className={cx("icon-close")} />
-      </button>
+      {!!searchValue && !loading && (
+        <button className={cx("btn-loading")} onClick={handlClose}>
+          <FontAwesomeIcon icon={faXmarkCircle} className={cx("icon-close")} />
+        </button>
+      )}
+      {loading && (
+        <button className={cx("btn-loading")}>
+          <FontAwesomeIcon icon={faSpinner} className={cx("icon-loading")} />
+        </button>
+      )}
     </div>
   );
 }
