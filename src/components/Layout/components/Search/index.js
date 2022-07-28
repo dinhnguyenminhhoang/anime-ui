@@ -3,6 +3,7 @@ import styles from "./Search.module.scss";
 import { useState, useRef, useEffect } from "react";
 import { useDebounce } from "~/hooks";
 import Tippy from "@tippyjs/react/headless";
+import * as searchServices from "~/apiServices/searchServices";
 import Notifycation from "../Notifycation/Notifycation";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -10,7 +11,7 @@ import {
   faSpinner,
   faXmarkCircle,
 } from "@fortawesome/free-solid-svg-icons";
-import Modal from "../Modal";
+import { faLess } from "@fortawesome/free-brands-svg-icons";
 const cx = classNames.bind(styles);
 function Search({ children }) {
   const [searchValue, setSearchValue] = useState("");
@@ -35,18 +36,13 @@ function Search({ children }) {
       setSearch([]);
       return;
     }
-    setLoading(true);
-    fetch(
-      `https://tiktok.fullstack.edu.vn/api/users/search?q=${debounce}&type=less`
-    )
-      .then((res) => res.json())
-      .then((res) => {
-        setSearch(res.data);
-        setLoading(false);
-      })
-      .catch(() => {
-        setLoading(false);
-      });
+    const feachApi = async () => {
+      setLoading(true);
+      const results = await searchServices.search(debounce);
+      setSearch(results);
+      setLoading(false);
+    };
+    feachApi();
   }, [debounce]);
   return (
     <div className={cx("popper__wrapper")}>
