@@ -2,21 +2,34 @@ import { faFacebook, faGoogle } from "@fortawesome/free-brands-svg-icons";
 import {
   faCircleUser,
   faClose,
+  faL,
   faLock,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import classNames from "classnames/bind";
+import { useState } from "react";
 import styles from "./Modal.module.scss";
 const cx = classNames.bind(styles);
-function Modal() {
+function Modal({ className = false }) {
+  const [apper, setApper] = useState(className);
   return (
-    <div className={cx("modal")}>
+    <div
+      className={cx(styles.modal, {
+        [styles.apper]: apper,
+      })}
+    >
       <div className={cx("modal__overlay")}></div>
       <div className={cx("modal__body")}>
         <div className={cx("modal__inner")}>
           <div className={cx("auth__form")}>
             <div className={cx("auth__form--header")}>
-              <button className={cx("close-btn")}>
+              <button
+                className={cx("close-btn")}
+                onClick={() => {
+                  setApper(false);
+                  className = false;
+                }}
+              >
                 <FontAwesomeIcon icon={faClose} className={cx("icon-close")} />
               </button>
               <span className={cx("wellcome")}>Chào khách!</span>

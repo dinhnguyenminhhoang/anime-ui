@@ -1,10 +1,10 @@
 .wrapper {
   width: 100%;
   height: var(--defaultHeaderHeight);
-  box-shadow: 0 0 1px 0 var(--white);
+  box-shadow: 0 0 1px 0 var(--border-header);
   display: flex;
   justify-content: center;
-  background-color: var(--backgroud-color);
+  background-color: var(--primary);
 }
 .inner {
   height: 100%;
@@ -27,7 +27,7 @@
 }
 .nav__item {
   padding: 0 10px;
-  border: 1px solid #444;
+  border: 1px solid var(--border-header);
   border-radius: 99px;
   padding: 6px 15px;
   margin: 0 6px;
@@ -42,23 +42,25 @@
   flex: 1;
 }
 .policy {
-  background-color: #444;
+  background-color: var(--background-icon-header);
   color: var(--font-color);
   &:hover {
-    color: #1ab394;
+    filter: contrast(1.75);
   }
 }
 .sun__dak {
-  background-color: #444;
-  color: #cacaca;
+  background-color: var(--background-icon-header);
+  color: var(--weather);
   &:hover {
     filter: brightness(150%);
   }
 }
 .user {
-  background-color: #262626;
-  color: rgba(255, 255, 255, 0.8);
-  box-shadow: 0 0 5px #ccc;
+  background-color: var(--background-icon-header);
+  color: var(--weather);
+  &:hover {
+    filter: brightness(150%);
+  }
 }
 .policy,
 .sun__dak,
@@ -69,6 +71,7 @@
   padding: 10px;
   font-size: 2.2rem;
   margin: 0 6px;
+  box-shadow: 0 0 5px var(--border-header);
   display: flex;
   align-items: center;
   cursor: pointer;

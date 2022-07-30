@@ -4,7 +4,13 @@
   right: 0;
   bottom: 0;
   left: 0;
-  display: flex;
+  display: none;
+}
+.hire {
+  display: none;
+}
+.apper {
+  display: flex !important;
 }
 .modal__overlay {
   position: absolute;
