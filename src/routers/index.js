@@ -1,21 +1,32 @@
 import Home from "~/pages/Home";
-import SeriesMovies from "~/pages/SeriesMovies";
 import Anime from "~/pages/Anime";
 import UpLoad from "~/pages/UpLoad";
-import OddMovie from "~/pages/OddMovie";
+import Policy from "~/pages/Policy";
 import { HeaderOnly } from "~/components/Layout";
+import Movie from "~/pages/Movie";
+import News from "~/pages/News";
+import Comic from "~/pages/Comic";
+import Rank from "~/pages/Rank";
 const publicRouter = [
   {
     path: "/",
     component: Home,
   },
   {
-    path: "/phimle",
-    component: OddMovie,
+    path: "/movie",
+    component: Movie,
   },
   {
-    path: "/phimbo",
-    component: SeriesMovies,
+    path: "/news",
+    component: News,
+  },
+  {
+    path: "/comic",
+    component: Comic,
+  },
+  {
+    path: "/rank",
+    component: Rank,
   },
   {
     path: "/upload",
@@ -25,6 +36,10 @@ const publicRouter = [
   {
     path: "/anime",
     component: Anime,
+  },
+  {
+    path: "/policy",
+    component: Policy,
     layout: null,
   },
 ];

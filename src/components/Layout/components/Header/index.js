@@ -10,6 +10,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import { useState } from "react";
 import Modal from "../Modal";
+import { Link } from "react-router-dom";
 const cx = classNames.bind(styles);
 function Header() {
   const newspaperSpinning = [
@@ -52,29 +53,31 @@ function Header() {
   return (
     <header className={cx("wrapper")}>
       <div className={cx("inner")}>
-        <img
-          className={cx("logo")}
-          src={logo.logo}
-          alt="Phimmoi | Phimmoi.net – Xem phim hay không quảng cáo"
-        />
+        <Link to="/">
+          <img
+            className={cx("logo")}
+            src={logo.logo}
+            alt="Phimmoi | Phimmoi.net – Xem phim hay không quảng cáo"
+          />
+        </Link>
         <div className={cx("nav")}>
           <ul className={cx("nav__list")}>
             <li className={cx(styles.nav__item)}>
-              <a href="https://phimmoilon.com/" className={cx("active")}>
+              <Link to="/anime" className={cx("active")}>
                 Anime
-              </a>
+              </Link>
             </li>
             <li className={cx("nav__item")}>
-              <a href="https://phimmoilon.com/">Movie</a>
+              <Link to="/movie">Movie</Link>
             </li>
             <li className={cx("nav__item")}>
-              <a href="https://phimmoilon.com/">Tin Tức</a>
+              <Link to="/news">Tin Tức</Link>
             </li>
             <li className={cx("nav__item")}>
-              <a href="https://phimmoilon.com/">Truyện</a>
+              <Link to="/comic">Truyện</Link>
             </li>
             <li className={cx("nav__item")}>
-              <a href="https://phimmoilon.com/">BXH</a>
+              <Link to="/rank">BXH</Link>
             </li>
           </ul>
         </div>
@@ -90,15 +93,16 @@ function Header() {
           >
             <FontAwesomeIcon icon={faCircleUser} className={cx("user-icon")} />
           </button>
+
           <button className={cx(styles.sun__dak)} onClick={handlerWeather}>
             <FontAwesomeIcon icon={faSun} className={cx("sun__dak-icon")} />
           </button>
-          <button className={cx("policy")} onClick={() => {}}>
+          <Link to="/policy" className={cx("policy")} onClick={() => {}}>
             <FontAwesomeIcon
               icon={faCircleExclamation}
               className={cx("policy-icon")}
             />
-          </button>
+          </Link>
         </div>
       </div>
       <Modal className={modal} />
