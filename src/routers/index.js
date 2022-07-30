@@ -2,7 +2,7 @@ import Home from "~/pages/Home";
 import Anime from "~/pages/Anime";
 import UpLoad from "~/pages/UpLoad";
 import Policy from "~/pages/Policy";
-import { HeaderOnly } from "~/components/Layout";
+import { HeaderOnly } from "~/Layout";
 import Movie from "~/pages/Movie";
 import News from "~/pages/News";
 import Comic from "~/pages/Comic";
