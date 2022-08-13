@@ -40,6 +40,82 @@ const publicRouter = [
     component: Anime,
   },
   {
+    path: "/active",
+    component: Anime,
+  },
+  {
+    path: "/fiction",
+    component: Anime,
+  },
+  {
+    path: "/romance",
+    component: Anime,
+  },
+  {
+    path: "/horror",
+    component: Anime,
+  },
+  {
+    path: "/martial",
+    component: Anime,
+  },
+  {
+    path: "/arts",
+    component: Anime,
+  },
+  {
+    path: "/comedy",
+    component: Anime,
+  },
+  {
+    path: "/school",
+    component: Anime,
+  },
+  {
+    path: "/detective",
+    component: Anime,
+  },
+  {
+    path: "/music",
+    component: Anime,
+  },
+  {
+    path: "/reincarnation",
+    component: Anime,
+  },
+  {
+    path: "/adventure",
+    component: Anime,
+  },
+  {
+    path: "/supernatural",
+    component: Anime,
+  },
+  {
+    path: "/fantasy",
+    component: Anime,
+  },
+  {
+    path: "/life",
+    component: Anime,
+  },
+  {
+    path: "/robot",
+    component: Anime,
+  },
+  {
+    path: "/game",
+    component: Anime,
+  },
+  {
+    path: "/sport",
+    component: Anime,
+  },
+  {
+    path: "/dramaMagic",
+    component: Anime,
+  },
+  {
     path: "/policy",
     component: Policy,
   },
