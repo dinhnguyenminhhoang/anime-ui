@@ -1,0 +1,36 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 60px;
+}
+.footer__container,
+.footer__next-btn,
+.footer__back-btn {
+  margin: 28px 0;
+}
+.item__page {
+  margin: 0 4px;
+  background-color: var(--font-color);
+  padding: 4px 16px;
+  cursor: pointer;
+  border-radius: 6px;
+  &:hover {
+    opacity: 0.9;
+    color: var(--white);
+    transition: all 0.4 ease-in;
+  }
+}
+.footer__back-btn,
+.footer__next-btn {
+  padding: 6px 16px;
+  margin: 0 4px;
+  border-radius: 6px;
+  background-color: var(--font-color);
+  cursor: pointer;
+  &:hover {
+    opacity: 0.9;
+    color: var(--white);
+    transition: all 0.4 ease-in;
+  }
+}

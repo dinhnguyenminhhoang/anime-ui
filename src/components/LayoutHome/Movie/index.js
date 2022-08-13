@@ -1,9 +1,5 @@
-import { faArrowRight, faCirclePlay } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import Heading from "~/Layout/components/Heading";
 import classNames from "classnames/bind";
 import styles from "./Movie.module.scss";
-import images from "~/assets/images";
 const cx = classNames.bind(styles);
 function Movie({ ...data }) {
   return (

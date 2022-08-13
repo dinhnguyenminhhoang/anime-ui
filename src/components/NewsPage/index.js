@@ -1,7 +1,7 @@
 import classNames from "classnames/bind";
-import styles from "./NewsAnime.module.scss";
+import styles from "./NewsPage.module.scss";
 const cx = classNames.bind(styles);
-function NewsAnime({ ...data }) {
+function NewsPage({ ...data }) {
   return (
     <div className={cx("grid__column-4")}>
       <a href={data.data.url} className={cx("link_wrapper")}>
@@ -13,13 +13,14 @@ function NewsAnime({ ...data }) {
               alt="hi"
             />
           </div>
-          <div className={cx("news-container")}>
-            <p className={cx("news-content")}>{data.data.title}</p>
+          <div className={cx("news-publish")}>
+            <span className={cx("news-publish__content")}>Tin Anime</span>
           </div>
+          <span className={cx("news__description")}>{data.data.title}</span>
         </div>
       </a>
     </div>
   );
 }
 
-export default NewsAnime;
+export default NewsPage;

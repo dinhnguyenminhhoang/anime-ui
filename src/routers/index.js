@@ -3,12 +3,12 @@ import Anime from "~/pages/Anime";
 import UpLoad from "~/pages/UpLoad";
 import Policy from "~/pages/Policy";
 import { HeaderOnly } from "~/Layout";
-import Movie from "~/pages/Movie";
 import News from "~/pages/News";
-import Comic from "~/pages/Comic";
+import Manga from "~/pages/Manga";
 import Rank from "~/pages/Rank";
 import Download from "~/pages/Download";
 import Watching from "~/pages/Watching";
+import Moviepage from "~/pages/Movie";
 const publicRouter = [
   {
     path: "/",
@@ -16,18 +16,38 @@ const publicRouter = [
   },
   {
     path: "/movie",
-    component: Movie,
+    component: Moviepage,
   },
   {
     path: "/news",
     component: News,
   },
   {
-    path: "/comic",
-    component: Comic,
+    path: "/manga",
+    component: Manga,
   },
   {
     path: "/rank",
+    component: Rank,
+  },
+  {
+    path: "/rank_all",
+    component: Rank,
+  },
+  {
+    path: "/rank_year",
+    component: Rank,
+  },
+  {
+    path: "/rank_month",
+    component: Rank,
+  },
+  {
+    path: "/rank_week",
+    component: Rank,
+  },
+  {
+    path: "/rank_day",
     component: Rank,
   },
   {

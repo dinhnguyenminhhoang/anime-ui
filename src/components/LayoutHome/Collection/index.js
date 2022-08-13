@@ -1,9 +1,8 @@
-import { faArrowRight, faCirclePlay } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import Heading from "~/Layout/components/Heading";
+import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import classNames from "classnames/bind";
-import styles from "./Collection.module.scss";
 import images from "~/assets/images";
+import Heading from "~/Layout/components/Heading";
+import styles from "./Collection.module.scss";
 const cx = classNames.bind(styles);
 function Collection() {
   return (

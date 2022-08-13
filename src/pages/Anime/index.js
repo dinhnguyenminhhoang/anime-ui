@@ -1,12 +1,8 @@
-import {
-  faBackwardStep,
-  faForwardStep,
-} from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import classNames from "classnames/bind";
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { Picked } from "~/components/LayoutHome";
+import Nextpages from "~/components/NextPages";
 import styles from "./Anime.module.scss";
 const cx = classNames.bind(styles);
 function Anime() {
@@ -87,24 +83,7 @@ function Anime() {
             </div>
           </div>
         </div>
-        <div className={cx("footer")}>
-          <button className={cx("footer__next-btn")}>
-            <FontAwesomeIcon icon={faForwardStep} className={cx("icon-next")} />
-          </button>
-          <div className={cx("footer__container")}>
-            <span className={cx("item__page")}>1</span>
-            <span className={cx("item__page")}>2</span>
-            <span className={cx("item__page")}>3</span>
-            <span className={cx("item__page")}>4</span>
-            <span className={cx("item__page")}>5</span>
-          </div>
-          <button className={cx("footer__back-btn")}>
-            <FontAwesomeIcon
-              icon={faBackwardStep}
-              className={cx("icon-back")}
-            />
-          </button>
-        </div>
+        <Nextpages />
       </div>
     </div>
   );

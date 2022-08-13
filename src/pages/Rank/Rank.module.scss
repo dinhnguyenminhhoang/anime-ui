@@ -1,0 +1,34 @@
+.rank__category--list {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+.rank__category--item {
+  color: var(--font-color);
+  text-decoration: underline var(--font-color) 1px;
+  margin: 0 2px;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.rank__heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.rank__time-item {
+  cursor: pointer;
+  color: var(--font-color);
+  margin: 0 4px;
+  padding: 4px 8px;
+  border-radius: 6px;
+  font-size: 1rem;
+  background-color: rgba(204, 204, 204, 0.2);
+  &:hover {
+    filter: contrast(1.8);
+  }
+}
+.rank__time {
+  display: flex;
+}

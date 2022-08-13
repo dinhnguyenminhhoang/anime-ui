@@ -1,9 +1,9 @@
-import { faArrowRight, faCirclePlay } from "@fortawesome/free-solid-svg-icons";
+import { faCirclePlay } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import Heading from "~/Layout/components/Heading";
+
 import classNames from "classnames/bind";
 import styles from "./Picked.module.scss";
-import images from "~/assets/images";
+
 const cx = classNames.bind(styles);
 function Picked({ ...data }) {
   return (

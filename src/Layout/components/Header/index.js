@@ -74,7 +74,7 @@ function Header() {
               <Link to="/news">Tin Tức</Link>
             </li>
             <li className={cx("nav__item")}>
-              <Link to="/comic">Truyện</Link>
+              <Link to="/manga">Truyện</Link>
             </li>
             <li className={cx("nav__item")}>
               <Link to="/rank">BXH</Link>
