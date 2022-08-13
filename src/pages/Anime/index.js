@@ -52,7 +52,7 @@ function Anime() {
           <Link to="/reincarnation">
             <li className={cx("anime__category--item")}>Phiêu Lưu</li>
           </Link>
-          <Link to="/aadventure">
+          <Link to="/adventure">
             <li className={cx("anime__category--item")}>Siêu Nhiên</li>
           </Link>
           <Link to="/supernatural">

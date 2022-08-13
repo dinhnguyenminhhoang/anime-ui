@@ -2,7 +2,6 @@ import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import classNames from "classnames/bind";
 import { useEffect, useState } from "react";
 import MangaPage from "~/components/MangaPage";
-import NewsPage from "~/components/NewsPage";
 import Nextpages from "~/components/NextPages";
 import Heading from "~/Layout/components/Heading";
 import styles from "./Manga.module.scss";

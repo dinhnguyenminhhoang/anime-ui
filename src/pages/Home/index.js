@@ -16,6 +16,7 @@ import styles from "./Home.module.scss";
 import Heading from "~/Layout/components/Heading";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import film from "~/utils/film";
+import { Link } from "react-router-dom";
 const cx = classNames.bind(styles);
 function Home() {
   const [traps, setTrap] = useState([]);
@@ -130,7 +131,9 @@ function Home() {
         </div>
       </div>
       <div className={cx("home-more")}>
-        <span className={cx("home-more_content")}>Xem thêm</span>
+        <Link to="/anime">
+          <span className={cx("home-more_content")}>Xem thêm</span>
+        </Link>
       </div>
     </>
   );

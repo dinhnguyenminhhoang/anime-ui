@@ -144,7 +144,7 @@ const publicRouter = [
     component: Download,
   },
   {
-    path: `/@$name`,
+    path: `/watching`,
     component: Watching,
   },
 ];

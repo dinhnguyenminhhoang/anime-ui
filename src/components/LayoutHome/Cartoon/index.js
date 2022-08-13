@@ -6,24 +6,29 @@ const cx = classNames.bind(styles);
 function Cartoon({ ...data }) {
   return (
     <div className={cx("grid__column-4")}>
-      <div className={cx("cartoon-item")}>
-        <div className={cx("cartoon-wrapper--img")}>
-          <img
-            className={cx("cartoon-img")}
-            src={data.data.thumbnail}
-            alt="hi"
-          />
+      <a href={data.data.url}>
+        <div className={cx("cartoon-item")}>
+          <div className={cx("cartoon-wrapper--img")}>
+            <img
+              className={cx("cartoon-img")}
+              src={data.data.poster}
+              alt="hi"
+            />
+          </div>
+          <div className={cx("cartoon-container")}>
+            <span className={cx("cartoon__heading")}>{data.data.name}</span>
+            <span className={cx("cartoon__views")}>
+              {data.data.views} lượt xem
+            </span>
+          </div>
+          <button className={cx("cartoon-button")}>
+            <FontAwesomeIcon
+              icon={faCirclePlay}
+              className={cx("cartoon-icon")}
+            />
+          </button>
         </div>
-        <div className={cx("cartoon-container")}>
-          <span className={cx("cartoon__heading")}>{data.data.name}</span>
-          <span className={cx("cartoon__views")}>
-            {data.data.views} lượt xem
-          </span>
-        </div>
-        <button className={cx("cartoon-button")}>
-          <FontAwesomeIcon icon={faCirclePlay} className={cx("cartoon-icon")} />
-        </button>
-      </div>
+      </a>
     </div>
   );
 }

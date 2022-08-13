@@ -421,12 +421,46 @@
   ],
   "manga": [
     {
+      "id": 100586,
+      "anime_id": 4163,
+      "title": "Haikyuu",
+      "slug": "haikyuu",
+      "poster": "https://s199.imacdn.com/tt24/2022/07/05/541b0ee1847e24d3_56effbf350033540_72608165700603289674.jpg",
+      "thumbnail": "https://s199.imacdn.com/tt24/2022/07/05/91a42e641197f6b5_89711b3d9576358e_38827165700603279674.jpg",
+      "url": "https://truyentranh1.com/haikyuu/chap-332",
+      "chapter_name": "332",
+      "chapter_slug": "chap-332"
+    },
+    {
+      "id": 100454,
+      "anime_id": 6765,
+      "title": "Komi Không Thể Giao Tiếp",
+      "slug": "komi-khong-the-giao-tiep",
+      "poster": "https://s199.imacdn.com/tt24/2021/10/30/abf559f1c23be6b9_9366471fb01001ff_42154163558364979674.jpg",
+      "thumbnail": "https://s199.imacdn.com/tt24/2021/10/30/47ff33182df2f70c_8daec582137d9d4f_26698163558364829674.jpg",
+      "url": "https://truyentranh1.com/komi-khong-the-giao-tiep/chap-367",
+      "chapter_name": "367",
+      "chapter_slug": "chap-367"
+    },
+    {
+      "id": 100600,
+      "anime_id": 6898,
+      "title": "Fuuto Tantei",
+      "slug": "fuuto-tantei",
+      "poster": "https://s199.imacdn.com/tt24/2022/07/29/e3559d8051ab147f_8dbdba2812dd3905_80751165908214999674.jpg",
+      "thumbnail": "https://s199.imacdn.com/tt24/2022/07/29/b6b76eeb567e6f4c_c70755cf3b535a2d_28523165908214979674.jpg",
+      "url": "https://truyentranh1.com/fuuto-tantei/chap-42",
+      "chapter_name": "42",
+      "chapter_slug": "chap-42"
+    },
+    {
       "id": 100390,
       "anime_id": 6244,
       "title": "Trở Thành Pháp Sư Ở Thế Giới Mới",
       "slug": "tro-thanh-phap-su-o-the-gioi-moi",
       "poster": "https://s199.imacdn.com/tt24/2021/09/07/1d3c9e5a09bb5dea_a8a19c34d38fa403_69096163101276349674.jpg",
       "thumbnail": "https://s199.imacdn.com/tt24/2021/09/07/64b968e8b978240d_8b1b5add715bfe36_43809163101276369674.jpg",
+      "url": "https://truyentranh1.com/tro-thanh-phap-su-o-the-gioi-moi/chap-37",
       "chapter_name": "37",
       "chapter_slug": "chap-37"
     },
@@ -437,6 +471,7 @@
       "slug": "su-troi-day-cua-anh-hung-khien",
       "poster": "https://s199.imacdn.com/tt24/2020/03/27/19e8ba1e415f09c3_77e2d70ff49f14c5_982791585242238745957.jpg",
       "thumbnail": "https://s199.imacdn.com/tt24/2020/03/27/20eb6bf9f01c0f45_01ca38e151232ded_426971585242237345957.jpg",
+      "url": "https://truyentranh1.com/su-troi-day-cua-anh-hung-khien/chap-89",
       "chapter_name": "89",
       "chapter_slug": "chap-89"
     },
@@ -447,38 +482,9 @@
       "slug": "gia-dinh-cua-nhung-chiec-bong",
       "poster": "https://s199.imacdn.com/tt24/2022/01/30/82b1dcb6b35f061b_5ce604a654fefb9e_47461164352654959674.jpg",
       "thumbnail": "https://s199.imacdn.com/tt24/2022/01/30/4a6acc1fba84413b_249e941127f3790d_35151164352654959674.jpg",
+      "url": "https://truyentranh1.com/gia-dinh-cua-nhung-chiec-bong/chap-129",
       "chapter_name": "129",
       "chapter_slug": "chap-129"
-    },
-    {
-      "id": 100305,
-      "anime_id": 6507,
-      "title": "Jujutsu Kaisen - Chú Thuật Hồi Chiến",
-      "slug": "jujutsu-kaisen-chu-thuat-hoi-chien",
-      "poster": "https://s199.imacdn.com/tt24/2021/01/20/01a09374ac1a1d91_c9816e11fc75cd73_705931611141384345957.jpg",
-      "thumbnail": "https://s199.imacdn.com/tt24/2021/01/20/906587cc2f226d4d_843cd593179d86b0_467071611141384745957.jpg",
-      "chapter_name": "192",
-      "chapter_slug": "chap-192"
-    },
-    {
-      "id": 100117,
-      "anime_id": 6811,
-      "title": "Spy X Family",
-      "slug": "spy-x-family",
-      "poster": "https://s199.imacdn.com/tt24/2020/05/14/16553ff040faa883_fb3b0aae854d3507_544361589430552645957.jpg",
-      "thumbnail": "https://s199.imacdn.com/tt24/2020/05/14/92cae13a91cec97a_233a84b7bf48842d_272651589430552545957.jpg",
-      "chapter_name": "66",
-      "chapter_slug": "chap-66"
-    },
-    {
-      "id": 100381,
-      "anime_id": 5257,
-      "title": "Học Viện Anh Hùng",
-      "slug": "hoc-vien-anh-hung",
-      "poster": "https://s199.imacdn.com/tt24/2021/09/04/eb69c6603dff8d96_004d0ab657d6dafc_94362163075663299674.jpg",
-      "thumbnail": "https://s199.imacdn.com/tt24/2021/09/04/f56d4081f1094cc4_be8010977e3cc9db_48240163075663289674.jpg",
-      "chapter_name": "362",
-      "chapter_slug": "chap-362"
     }
   ],
   "ranking": [
@@ -569,12 +575,91 @@
   ],
   "cartoon": [
     {
+      "id": 21273,
+      "slug": "thuong-lan-quyet-ban-hoat-hinh",
+      "name": "Thương Lan Quyết (Bản Hoạt Hình)",
+      "thumbnail": "https://s198.imacdn.com/ff/2022/07/15/4d68a2730f4b2cec_4ea763cdccffcc70_41187165786106133816.jpg",
+      "poster": "https://s198.imacdn.com/ff/2022/07/15/3c8df5f3d4f66a93_e89043f5746a9cd3_58645165786106843816.jpg",
+      "views": 14605,
+      "url": "https://mehoathinh.com/thuong-lan-quyet-ban-hoat-hinh/tap-1",
+      "year": 2022,
+      "imdb": "0",
+      "imdb_vote": null,
+      "is_movie": 0
+    },
+    {
+      "id": 15144,
+      "slug": "dau-la-dai-luc",
+      "name": "Đấu La Đại Lục",
+      "thumbnail": "https://s198.imacdn.com/ff/2018/09/27/bfe135207c0f6250_55569805ec0d4fde_36983153805604173.jpg",
+      "poster": "https://s198.imacdn.com/ff/2021/02/20/214199df846ec0be_30a65d21fedd8bb8_667261613823016216068.jpg",
+      "views": 11187790,
+      "url": "https://mehoathinh.com/dau-la-dai-luc/tap-1",
+      "year": 2018,
+      "imdb": "8.6",
+      "imdb_vote": 1100,
+      "is_movie": 0
+    },
+    {
+      "id": 19668,
+      "slug": "the-gioi-hoan-my",
+      "name": "Thế Giới Hoàn Mỹ",
+      "thumbnail": "https://s198.imacdn.com/ff/2021/04/23/f045cf954740ce32_93ace7ceb4c13087_425481619156748516068.jpg",
+      "poster": "https://s198.imacdn.com/ff/2021/04/23/b65d2e892b145f29_10366fa0feee9190_552751619157263616068.jpg",
+      "views": 1604769,
+      "url": "https://mehoathinh.com/the-gioi-hoan-my/tap-1",
+      "year": 2021,
+      "imdb": "0",
+      "imdb_vote": null,
+      "is_movie": 0
+    },
+    {
+      "id": 21323,
+      "slug": "nho-ban-do-he-thong-chien-than",
+      "name": "Nhờ Bạn Đó! Hệ Thống Chiến Thần",
+      "thumbnail": "https://s198.imacdn.com/ff/2022/07/29/5a2db8275eafdb0b_e2348732b7dad359_525721659084487616068.jpg",
+      "poster": "https://s198.imacdn.com/ff/2022/07/29/92953f4aa6d17c74_f6f5c1f42b708011_379911659084990216068.jpg",
+      "views": 15060,
+      "url": "https://mehoathinh.com/nho-ban-do-he-thong-chien-than/tap-1",
+      "year": 2022,
+      "imdb": "0",
+      "imdb_vote": null,
+      "is_movie": 0
+    },
+    {
+      "id": 21324,
+      "slug": "tinh-nguyen-chi-chu",
+      "name": "Tinh Nguyên Chi Chủ",
+      "thumbnail": "https://s198.imacdn.com/ff/2022/07/29/d80c0fbbf3982711_e5a2b87522272e87_447701659085191216068.jpg",
+      "poster": "https://s198.imacdn.com/ff/2022/07/29/058350bda3ae8893_1e0f63cc8c898646_481681659085319216068.jpg",
+      "views": 7211,
+      "url": "https://mehoathinh.com/tinh-nguyen-chi-chu/tap-1",
+      "year": 2022,
+      "imdb": "0",
+      "imdb_vote": null,
+      "is_movie": 0
+    },
+    {
+      "id": 21371,
+      "slug": "dota-dong-mau-rong-phan-3",
+      "name": "Dota: Dòng Máu Rồng (Phần 3)",
+      "thumbnail": "https://s198.imacdn.com/ff/2022/08/09/a7e40c16445c01b0_e5ecb8f4f9906e6c_353241660033598816068.jpg",
+      "poster": "https://s198.imacdn.com/ff/2022/08/09/f44c9264b13617af_2a29bbc7b833bbe1_2319461660033570816068.jpg",
+      "views": 3964,
+      "url": "https://mehoathinh.com/dota-dong-mau-rong-phan-3/tap-1-gio-duoi-cua",
+      "year": 2022,
+      "imdb": "7.8",
+      "imdb_vote": 18000,
+      "is_movie": 0
+    },
+    {
       "id": 21345,
       "slug": "rong-an-co-bi-mang-tieng-ac",
       "name": "Rồng Ăn Cỏ Bị Mang Tiếng Ác",
       "thumbnail": "https://s198.imacdn.com/ff/2022/08/02/41507137406c7bd3_2758ccccb56b58b5_330981659441857116068.jpg",
       "poster": "https://s198.imacdn.com/ff/2022/08/02/4c670969828e6203_58cd926cdf9a8505_520031659441860516068.jpg",
-      "views": 3500,
+      "views": 5610,
+      "url": "https://mehoathinh.com/rong-an-co-bi-mang-tieng-ac/tap-1",
       "year": 2022,
       "imdb": "0",
       "imdb_vote": null,
@@ -586,82 +671,11 @@
       "name": "Manh Thê Thực Thần (Phần 3)",
       "thumbnail": "https://s198.imacdn.com/ff/2022/07/05/3653b6834b04b735_273b5e768cec9a85_497121657006555316068.jpg",
       "poster": "https://s198.imacdn.com/ff/2022/07/05/7a9ebd022394ea68_8d96964e8ae6331f_2601511657006627516068.jpg",
-      "views": 16563,
+      "views": 18182,
+      "url": "https://mehoathinh.com/manh-the-thuc-than-phan-3/tap-1",
       "year": 2022,
       "imdb": "0",
       "imdb_vote": null,
-      "is_movie": 0
-    },
-    {
-      "id": 21132,
-      "slug": "tam-dung-doi-ta-xem-huong-dan",
-      "name": "Tạm Dừng! Đợi Ta Xem Hướng Dẫn",
-      "thumbnail": "https://s198.imacdn.com/ff/2022/06/02/6612b2fa4bcb409b_551035b52a2608b2_466051654154965616068.jpg",
-      "poster": "https://s198.imacdn.com/ff/2022/06/02/4a97e96e1f954ade_a7afca08295f3005_645711654154968116068.jpg",
-      "views": 16175,
-      "year": 2022,
-      "imdb": "0",
-      "imdb_vote": null,
-      "is_movie": 0
-    },
-    {
-      "id": 20494,
-      "slug": "tan-tan-thoi-minh-nguyet-bach-bo-phi-kiem",
-      "name": "Tân Tần Thời Minh Nguyệt - Bách Bộ Phi Kiếm",
-      "thumbnail": "https://s198.imacdn.com/ff/2021/11/25/64b280c67ea95baa_fd27561f2253ffe3_486041637827099416068.jpg",
-      "poster": "https://s198.imacdn.com/ff/2021/11/25/ff96061a4bc87c23_cd04e771a332758d_610681637828192616068.jpg",
-      "views": 75168,
-      "year": 2021,
-      "imdb": "0",
-      "imdb_vote": null,
-      "is_movie": 0
-    },
-    {
-      "id": 20540,
-      "slug": "bang-hoa-ma-tru",
-      "name": "Băng Hỏa Ma Trù ",
-      "thumbnail": "https://s198.imacdn.com/ff/2021/12/14/9183343d62799bc3_4960e4950474191d_514501639482102516068.jpg",
-      "poster": "https://s198.imacdn.com/ff/2021/12/14/d72b9bebdd434e68_cb768d6546654c53_2467811639482188416068.jpg",
-      "views": 189046,
-      "year": 2021,
-      "imdb": "0",
-      "imdb_vote": null,
-      "is_movie": 0
-    },
-    {
-      "id": 20450,
-      "slug": "pham-nhan-tu-tien-ma-dao-tranh-phong",
-      "name": "Phàm Nhân Tu Tiên: Ma Đạo Tranh Phong",
-      "thumbnail": "https://s198.imacdn.com/ff/2021/11/14/ac9e9580e5546b4e_0a0afc2322c21ee1_496071636884060616068.jpg",
-      "poster": "https://s198.imacdn.com/ff/2021/11/14/1fd0c068ae17c86c_9e2c59bb15e9461b_351141636876960516068.jpg",
-      "views": 247996,
-      "year": 2021,
-      "imdb": "0",
-      "imdb_vote": null,
-      "is_movie": 0
-    },
-    {
-      "id": 21317,
-      "slug": "bach-yeu-pho-phan-3-kinh-su-thien",
-      "name": "Bách Yêu Phổ (Phần 3) Kinh Sư Thiên",
-      "thumbnail": "https://s198.imacdn.com/ff/2022/07/27/6a62d3d93ff278db_09863a06205fe7c4_1449151658921020816068.jpg",
-      "poster": "https://s198.imacdn.com/ff/2022/07/27/e8b26749d56c4826_3f9d31b30945e9e3_2138051658921045216068.jpg",
-      "views": 6938,
-      "year": 2022,
-      "imdb": "0",
-      "imdb_vote": null,
-      "is_movie": 0
-    },
-    {
-      "id": 21306,
-      "slug": "em-la-groot-phan-1",
-      "name": "Em Là Groot (Phần 1)",
-      "thumbnail": "https://s198.imacdn.com/ff/2022/07/24/0bd61d94d1caf29d_eee88aa10fafe226_463081658639717316068.jpg",
-      "poster": "https://s198.imacdn.com/ff/2022/08/10/f8dc961b78c22476_41873b1586469c13_633291660115857116068.jpg",
-      "views": 23074,
-      "year": 2022,
-      "imdb": "9.0",
-      "imdb_vote": 28,
       "is_movie": 0
     }
   ],
@@ -1683,8 +1697,9 @@
       "slug": "tro-thanh-phap-su-o-the-gioi-moi",
       "poster": "https://s199.imacdn.com/tt24/2021/09/07/1d3c9e5a09bb5dea_a8a19c34d38fa403_69096163101276349674.jpg",
       "thumbnail": "https://s199.imacdn.com/tt24/2022/07/05/91a42e641197f6b5_89711b3d9576358e_38827165700603279674.jpg",
-      "chapter_name": "37",
-      "chapter_slug": "chap-37",
+      "chapter_name": "332",
+      "chapter_slug": "chap-332",
+      "url": "https://truyentranh1.com/haikyuu/chap-332",
       "description": "Hinata Shouyou – nhân vật chính của Haikyuu, kể từ khi xem xong một trận bóng chuyền đã thần tượng và mơ ước trở thành “Người khổng"
     },
     {
@@ -1694,8 +1709,9 @@
       "slug": "su-troi-day-cua-anh-hung-khien",
       "poster": "https://s199.imacdn.com/tt24/2020/03/27/19e8ba1e415f09c3_77e2d70ff49f14c5_982791585242238745957.jpg",
       "thumbnail": "https://s199.imacdn.com/tt24/2021/03/25/8df1312098c21032_5d844933617ac7ff_472491616646837545957.jpg",
-      "chapter_name": "89",
-      "chapter_slug": "chap-89",
+      "chapter_name": "37",
+      "chapter_slug": "chap-37",
+      "url": "https://truyentranh1.com/maseki-gurume-mamono-no-chikara-o-tabeta-ore-wa-saikyou/chap-37",
       "description": "Tại thế giới này, chỉ có mình tôi là có thể mạnh lên nhờ ăn những đá phép thuật! Tại vì nữ thần cảm thấy cái chết"
     },
     {
@@ -1705,8 +1721,9 @@
       "slug": "gia-dinh-cua-nhung-chiec-bong",
       "poster": "https://s199.imacdn.com/tt24/2022/01/30/82b1dcb6b35f061b_5ce604a654fefb9e_47461164352654959674.jpg",
       "thumbnail": "https://s199.imacdn.com/tt24/2022/07/18/710aab15ea8b91e2_a4e3c53231693262_34022165813409519674.jpg",
-      "chapter_name": "129",
-      "chapter_slug": "chap-129",
+      "chapter_name": "170",
+      "chapter_slug": "chap-170",
+      "url": "https://truyentranh1.com/kengan-omega/chap-170",
       "description": "Kengan Ashura Phần 2. Tiếp tục câu chuyện sau khi giải đấu kết thúc."
     },
     {
@@ -1716,8 +1733,9 @@
       "slug": "jujutsu-kaisen-chu-thuat-hoi-chien",
       "poster": "https://s199.imacdn.com/tt24/2021/01/20/01a09374ac1a1d91_c9816e11fc75cd73_705931611141384345957.jpg",
       "thumbnail": "https://s199.imacdn.com/tt24/2021/10/17/f9ba194813d46884_305e909bd13828c3_38275163446624389674.jpg",
-      "chapter_name": "192",
-      "chapter_slug": "chap-192",
+      "chapter_name": "638",
+      "chapter_slug": "chap-638",
+      "url": "https://truyentranh1.com/hiep-khach-giang-ho/chap-638",
       "description": "Hiệp Khách Giang Hồ xoay quanh nhân vật chính là Hàn Bảo Quân, một kẻ không có võ công nhưng lại có khinh công tuyệt đỉnh và tài"
     },
     {
@@ -1727,8 +1745,9 @@
       "slug": "spy-x-family",
       "poster": "https://s199.imacdn.com/tt24/2020/05/14/16553ff040faa883_fb3b0aae854d3507_544361589430552645957.jpg",
       "thumbnail": "https://s199.imacdn.com/tt24/2020/03/25/0352d1d48b22f5fe_f95afd21f8f8f0ad_423991585153052945957.jpg",
-      "chapter_name": "66",
-      "chapter_slug": "chap-66",
+      "chapter_name": "36",
+      "chapter_slug": "chap-36",
+      "url": "https://truyentranh1.com/jimi-na-kensei-wa-sore-demo-saikyou-desu/chap-36",
       "description": "Shirokuro Sansui, một sinh viên Nhật Bản, đã vô tình bị Chúa giết, sau đó được gửi đến một thế giới khác để xin lỗi. Ở đó, anh được huấn"
     },
     {
@@ -1738,8 +1757,9 @@
       "slug": "hoc-vien-anh-hung",
       "poster": "https://s199.imacdn.com/tt24/2021/09/04/eb69c6603dff8d96_004d0ab657d6dafc_94362163075663299674.jpg",
       "thumbnail": "https://s199.imacdn.com/tt24/2021/10/30/47ff33182df2f70c_8daec582137d9d4f_26698163558364829674.jpg",
-      "chapter_name": "362",
-      "chapter_slug": "chap-362",
+      "chapter_name": "367",
+      "chapter_slug": "chap-367",
+      "url": "https://truyentranh1.com/komi-khong-the-giao-tiep/chap-367",
       "description": "Chàng trai mong muốn cuộc sống giản dị và cô gái mắc chứng sợ giao tiếp với ngước khác, chuyện gì sẽ xảy ra tiếp theo."
     },
     {
@@ -1749,8 +1769,9 @@
       "slug": "tro-thanh-phap-su-o-the-gioi-moi",
       "poster": "https://s199.imacdn.com/tt24/2021/09/07/1d3c9e5a09bb5dea_a8a19c34d38fa403_69096163101276349674.jpg",
       "thumbnail": "https://s199.imacdn.com/tt24/2021/10/07/010071c8c87d8c8a_07846010136083ee_343891633621543945957.jpg",
-      "chapter_name": "37",
-      "chapter_slug": "chap-37",
+      "chapter_name": "49",
+      "chapter_slug": "chap-49",
+      "url": "https://truyentranh1.com/tu-chuc-nghiep-yeu-nhat-tro-thanh-tho-ren-manh-nhat/chap-49",
       "description": "Con người của thế giới này được Thượng đế ban cho nghề nghiệp và vũ khí được gọi là Thần khí. Vũ khí con người tự tạo ra là rác thải. Đó là lý..."
     },
     {
@@ -1760,8 +1781,9 @@
       "slug": "su-troi-day-cua-anh-hung-khien",
       "poster": "https://s199.imacdn.com/tt24/2020/03/27/19e8ba1e415f09c3_77e2d70ff49f14c5_982791585242238745957.jpg",
       "thumbnail": "https://s199.imacdn.com/tt24/2021/04/14/d675115240aa8cb7_b899d906d1dc14c7_427991618398655745957.jpg",
-      "chapter_name": "89",
-      "chapter_slug": "chap-89",
+      "chapter_name": "30",
+      "chapter_slug": "chap-30",
+      "url": "https://truyentranh1.com/the-kingdom-of-ruin/chap-30",
       "description": "Con người từ xưa đã sống dưới sự bảo hộ của phù thủy, họ tôn kính, biết ơn và đồng thời cũng cảm thấy ... KHIẾP SỢ trước năng"
     },
     {
@@ -1771,8 +1793,9 @@
       "slug": "gia-dinh-cua-nhung-chiec-bong",
       "poster": "https://s199.imacdn.com/tt24/2022/01/30/82b1dcb6b35f061b_5ce604a654fefb9e_47461164352654959674.jpg",
       "thumbnail": "https://s199.imacdn.com/tt24/2020/04/27/ee317e817b25f82f_52726102bd47a441_468121587987491445957.jpg",
-      "chapter_name": "129",
-      "chapter_slug": "chap-129",
+      "chapter_name": "48",
+      "chapter_slug": "chap-48",
+      "url": "https://truyentranh1.com/nhung-con-quai-vat-lop-1-a/chap-48",
       "description": "Một ngôi trường nơi mà nữ sinh trở nên ranh ma và cần 1 giáo viên đứng ra dạy dỗ và main của chúng ta chính là người đó."
     },
     {
@@ -1782,8 +1805,9 @@
       "slug": "jujutsu-kaisen-chu-thuat-hoi-chien",
       "poster": "https://s199.imacdn.com/tt24/2021/01/20/01a09374ac1a1d91_c9816e11fc75cd73_705931611141384345957.jpg",
       "thumbnail": "https://s199.imacdn.com/tt24/2022/07/29/b6b76eeb567e6f4c_c70755cf3b535a2d_28523165908214979674.jpg",
-      "chapter_name": "192",
-      "chapter_slug": "chap-192",
+      "chapter_name": "42",
+      "chapter_slug": "chap-42",
+      "url": "https://truyentranh1.com/fuuto-tantei/chap-42",
       "description": "Một ngôi trường nơi mà nữ sinh trở nên ranh ma và cần 1 giáo viên đứng ra dạy dỗ và main của chúng ta chính là người đó."
     },
     {
@@ -1793,8 +1817,9 @@
       "slug": "spy-x-family",
       "poster": "https://s199.imacdn.com/tt24/2020/05/14/16553ff040faa883_fb3b0aae854d3507_544361589430552645957.jpg",
       "thumbnail": "https://s199.imacdn.com/tt24/2020/12/10/bb8e14671338f4b7_2b5d2840abe60c20_412531607608063245957.jpg",
-      "chapter_name": "66",
-      "chapter_slug": "chap-66",
+      "chapter_name": "74",
+      "chapter_slug": "chap-74",
+      "url": "https://truyentranh1.com/tai-sinh-thanh-quy-toc-voi-ki-nang-appraisal/chap-74",
       "description": "Cô nàng bí ẩn tự xưng là phù thủy đã chôm một chiếc túi từ một người đàn ông và nói rằng Ngươi không thể thỏa mãn ta trước khi vụt"
     },
     {
@@ -1804,8 +1829,9 @@
       "slug": "hoc-vien-anh-hung",
       "poster": "https://s199.imacdn.com/tt24/2021/09/04/eb69c6603dff8d96_004d0ab657d6dafc_94362163075663299674.jpg",
       "thumbnail": "https://s199.imacdn.com/tt24/2021/09/05/19ed9757c846cdf7_ca8233082aa81c6b_38830163083572929674.jpg",
-      "chapter_name": "362",
-      "chapter_slug": "chap-362",
+      "chapter_name": "67",
+      "chapter_slug": "chap-67",
+      "url": "https://truyentranh1.com/dandadan/chap-67",
       "description": "Tái sinh với skill thẩm định và xây dựng lãnh thổ."
     },
     {
@@ -1815,8 +1841,9 @@
       "slug": "tro-thanh-phap-su-o-the-gioi-moi",
       "poster": "https://s199.imacdn.com/tt24/2021/09/07/1d3c9e5a09bb5dea_a8a19c34d38fa403_69096163101276349674.jpg",
       "thumbnail": "https://s199.imacdn.com/tt24/2020/09/22/467786cf5908337b_1a14516ccd708e11_406891600761867145957.jpg",
-      "chapter_name": "37",
-      "chapter_slug": "chap-37",
+      "chapter_name": "56",
+      "chapter_slug": "chap-56",
+      "url": "https://truyentranh1.com/its-not-meguro-sans-first-time/chap-56",
       "description": "Một chàng trai otaku đam mê huyền bí không tin vào ma quỷ và Ayase, một cô gái không tin vào người ngoài hành tinh, gặp phải một"
     },
     {
@@ -1826,30 +1853,45 @@
       "slug": "su-troi-day-cua-anh-hung-khien",
       "poster": "https://s199.imacdn.com/tt24/2020/03/27/19e8ba1e415f09c3_77e2d70ff49f14c5_982791585242238745957.jpg",
       "thumbnail": "https://s199.imacdn.com/tt24/2021/09/07/64b968e8b978240d_8b1b5add715bfe36_43809163101276369674.jpg",
-      "chapter_name": "89",
-      "chapter_slug": "chap-89",
+      "chapter_name": "37",
+      "chapter_slug": "chap-37",
+      "url": "https://truyentranh1.com/tro-thanh-phap-su-o-the-gioi-moi/chap-37",
       "description": "Một chàng trai otaku đam mê huyền bí không tin vào ma quỷ và Ayase, một cô gái không tin vào người ngoài hành tinh, gặp phải một"
     },
     {
       "id": 100519,
       "anime_id": 6663,
-      "title": "Yofukashi No Uta",
+      "title": "Sự Trỗi Dậy Của Anh Hùng Khiên",
       "slug": "gia-dinh-cua-nhung-chiec-bong",
       "poster": "https://s199.imacdn.com/tt24/2022/01/30/82b1dcb6b35f061b_5ce604a654fefb9e_47461164352654959674.jpg",
       "thumbnail": "https://s199.imacdn.com/tt24/2020/03/27/20eb6bf9f01c0f45_01ca38e151232ded_426971585242237345957.jpg",
-      "chapter_name": "129",
-      "chapter_slug": "chap-129",
-      "description": "Trong một đêm không thể ngủ với những điều buồn chán và phiền muội cứ đau đáu ở trong lòng, Yamori Kou đã bắt đầu khám phá thế giới"
+      "chapter_name": "89",
+      "chapter_slug": "chap-89",
+      "url": "https://truyentranh1.com/su-troi-day-cua-anh-hung-khien/chap-89",
+      "description": "Iwatani Naofumi được triệu hồi để cứu một thế giới khác, và trở thành một trong bốn vị anh hùng tại nơi đây. Bắt đầu cuộc hành trình khá"
     },
     {
       "id": 100305,
       "anime_id": 6507,
-      "title": "Gia Đình Của Những Chiếc Bóng",
+      "title": "Yofukashi No Uta",
       "slug": "jujutsu-kaisen-chu-thuat-hoi-chien",
       "poster": "https://s199.imacdn.com/tt24/2021/01/20/01a09374ac1a1d91_c9816e11fc75cd73_705931611141384345957.jpg",
       "thumbnail": "https://s199.imacdn.com/tt24/2020/09/28/5e03323111586091_2df3b36d21147f70_321871601262915845957.jpg",
-      "chapter_name": "192",
-      "chapter_slug": "chap-192",
+      "chapter_name": "81",
+      "chapter_slug": "chap-81",
+      "url": "https://truyentranh1.com/yofukashi-no-uta/chap-81",
+      "description": "Trong một đêm không thể ngủ với những điều buồn chán và phiền muội cứ đau đáu ở trong lòng, Yamori Kou đã bắt đầu khám phá thế giới"
+    },
+    {
+      "id": 100117,
+      "anime_id": 6811,
+      "title": "Gia Đình Của Những Chiếc Bóng",
+      "slug": "spy-x-family",
+      "poster": "https://s199.imacdn.com/tt24/2020/05/14/16553ff040faa883_fb3b0aae854d3507_544361589430552645957.jpg",
+      "thumbnail": "https://s199.imacdn.com/tt24/2022/01/30/4a6acc1fba84413b_249e941127f3790d_35151164352654959674.jpg",
+      "chapter_name": "129",
+      "chapter_slug": "chap-129",
+      "url": "https://truyentranh1.com/gia-dinh-cua-nhung-chiec-bong/chap-129",
       "description": "Tại một vùng đất nọ, có những chiếc bóng sống cuộc sống giàu sang trong những tòa biệt thự khổng lồ, được phục vụ bởi những búp bê sống."
     },
     {
@@ -1858,9 +1900,10 @@
       "title": "Oshi No Ko",
       "slug": "spy-x-family",
       "poster": "https://s199.imacdn.com/tt24/2020/05/14/16553ff040faa883_fb3b0aae854d3507_544361589430552645957.jpg",
-      "thumbnail": "https://s199.imacdn.com/tt24/2022/01/30/4a6acc1fba84413b_249e941127f3790d_35151164352654959674.jpg",
-      "chapter_name": "66",
-      "chapter_slug": "chap-66",
+      "thumbnail": "https://s199.imacdn.com/tt24/2020/08/31/4805659e644b4d8f_0769aa2ee4c001ca_337151598878817845957.jpg",
+      "chapter_name": "89",
+      "chapter_slug": "chap-89",
+      "url": "https://truyentranh1.com/oshi-no-ko/chap-89",
       "description": "Câu chuyện xoay quanh một cô gái vô cùng tuyệt vời và một cái nhìn hoàn toàn mới về ngành giải trí đầy phức tạp"
     },
     {
@@ -1869,9 +1912,10 @@
       "title": "Ta muốn trở thành chúa tể bóng tối!",
       "slug": "hoc-vien-anh-hung",
       "poster": "https://s199.imacdn.com/tt24/2021/09/04/eb69c6603dff8d96_004d0ab657d6dafc_94362163075663299674.jpg",
-      "thumbnail": "https://s199.imacdn.com/tt24/2020/08/31/4805659e644b4d8f_0769aa2ee4c001ca_337151598878817845957.jpg",
-      "chapter_name": "362",
-      "chapter_slug": "chap-362",
+      "thumbnail": "https://s199.imacdn.com/tt24/2020/11/15/4abeef62ea839291_1379d6e593689eff_501941605456886245957.jpg",
+      "chapter_name": "43",
+      "chapter_slug": "chap-43",
+      "url": "https://truyentranh1.com/ta-muon-tro-thanh-chua-te-bong-toi/chap-43",
       "description": "Được chuyển thể từ Light Novel cùng tên. 'Tôi không phải nhân vật chính, cũng chẳng phải trùm cuối...'Tôi là một cậu trai ước mơ làm"
     },
     {
@@ -1880,21 +1924,11 @@
       "title": "Jujutsu Kaisen - Chú Thuật Hồi Chiến",
       "slug": "tro-thanh-phap-su-o-the-gioi-moi",
       "poster": "https://s199.imacdn.com/tt24/2021/09/07/1d3c9e5a09bb5dea_a8a19c34d38fa403_69096163101276349674.jpg",
-      "thumbnail": "https://s199.imacdn.com/tt24/2020/11/15/4abeef62ea839291_1379d6e593689eff_501941605456886245957.jpg",
-      "chapter_name": "37",
-      "chapter_slug": "chap-37",
-      "description": "Yuuji Itadori là một thiên tài có tốc độ và sức mạnh, nhưng cậu ấy muốn dành thời gian của mình trong Câu lạc bộ Tâm Linh. Một ngày sau"
-    },
-    {
-      "id": 100064,
-      "anime_id": 6040,
-      "title": "Học Viện Anh Hùng",
-      "slug": "su-troi-day-cua-anh-hung-khien",
-      "poster": "https://s199.imacdn.com/tt24/2020/03/27/19e8ba1e415f09c3_77e2d70ff49f14c5_982791585242238745957.jpg",
       "thumbnail": "https://s199.imacdn.com/tt24/2021/01/20/906587cc2f226d4d_843cd593179d86b0_467071611141384745957.jpg",
-      "chapter_name": "89",
-      "chapter_slug": "chap-89",
-      "description": "Vào tương lai, lúc mà con người với những sức mạnh siêu nhiên là điều thường thấy quanh thế giới. Đây là câu chuyện về Izuku"
+      "chapter_name": "192",
+      "chapter_slug": "chap-192",
+      "url": "https://truyentranh1.com/jujutsu-kaisen-chu-thuat-hoi-chien/chap-192",
+      "description": "Yuuji Itadori là một thiên tài có tốc độ và sức mạnh, nhưng cậu ấy muốn dành thời gian của mình trong Câu lạc bộ Tâm Linh. Một ngày sau"
     },
     {
       "id": 100519,
@@ -1903,19 +1937,34 @@
       "slug": "gia-dinh-cua-nhung-chiec-bong",
       "poster": "https://s199.imacdn.com/tt24/2022/01/30/82b1dcb6b35f061b_5ce604a654fefb9e_47461164352654959674.jpg",
       "thumbnail": "https://s199.imacdn.com/tt24/2020/05/14/92cae13a91cec97a_233a84b7bf48842d_272651589430552545957.jpg",
-      "chapter_name": "129",
-      "chapter_slug": "chap-129",
+      "chapter_name": "66",
+      "chapter_slug": "chap-66",
+      "url": "https://truyentranh1.com/spy-x-family/chap-66",
       "description": "Anh điệp viên lấy vợ sát thủ và có con siêu năng"
     },
+    {
+      "id": 100064,
+      "anime_id": 6040,
+      "title": "Học Viện Anh Hùng",
+      "slug": "su-troi-day-cua-anh-hung-khien",
+      "poster": "https://s199.imacdn.com/tt24/2020/03/27/19e8ba1e415f09c3_77e2d70ff49f14c5_982791585242238745957.jpg",
+      "thumbnail": "https://s199.imacdn.com/tt24/2021/09/04/f56d4081f1094cc4_be8010977e3cc9db_48240163075663289674.jpg",
+      "chapter_name": "362",
+      "chapter_slug": "chap-362",
+      "url": "https://truyentranh1.com/hoc-vien-anh-hung/chap-362",
+      "description": "Vào tương lai, lúc mà con người với những sức mạnh siêu nhiên là điều thường thấy quanh thế giới. Đây là câu chuyện về Izuku"
+    },
+
     {
       "id": 100519,
       "anime_id": 6663,
       "title": "Hiền nhân tái sinh bị bỏ rơi tạo ra Đế quốc Quỷ vĩ đại mạnh nhất trong Khu rừng Quỷ",
       "slug": "gia-dinh-cua-nhung-chiec-bong",
       "poster": "https://s199.imacdn.com/tt24/2022/01/30/82b1dcb6b35f061b_5ce604a654fefb9e_47461164352654959674.jpg",
-      "thumbnail": "https://s199.imacdn.com/tt24/2021/09/04/f56d4081f1094cc4_be8010977e3cc9db_48240163075663289674.jpg",
-      "chapter_name": "129",
-      "chapter_slug": "chap-129",
+      "thumbnail": "https://s199.imacdn.com/tt24/2021/10/07/5923dc1131e88466_c50d85c61a59d756_441431633569969445957.jpg",
+      "chapter_name": "48",
+      "chapter_slug": "chap-48",
+      "url": "http://truyenqqpro.com/truyen-tranh/hien-nhan-tai-sinh-bi-bo-roi-tao-ra-de-quoc-quy-vi-dai-manh-nhat-trong-khu-rung-quy-11551-chap-48.html",
       "description": "Một người đàn ông từng được gọi là Great Sage đã tìm kiếm một cuộc sống yên bình. Trong"
     },
     {
@@ -1924,20 +1973,10 @@
       "title": "My Home Hero",
       "slug": "jujutsu-kaisen-chu-thuat-hoi-chien",
       "poster": "https://s199.imacdn.com/tt24/2021/01/20/01a09374ac1a1d91_c9816e11fc75cd73_705931611141384345957.jpg",
-      "thumbnail": "https://s199.imacdn.com/tt24/2021/10/07/5923dc1131e88466_c50d85c61a59d756_441431633569969445957.jpg",
-      "chapter_name": "192",
-      "chapter_slug": "chap-192",
-      "description": "Vì lợi ích của đứa con gái, người đàn ông trung niên đã bắt đầu dấn thân vào hành trình phiêu lưu của đời mình. Toshio Tetsuo là một nhân viên"
-    },
-    {
-      "id": 100305,
-      "anime_id": 6507,
-      "title": "My Home Hero",
-      "slug": "jujutsu-kaisen-chu-thuat-hoi-chien",
-      "poster": "https://s199.imacdn.com/tt24/2021/01/20/01a09374ac1a1d91_c9816e11fc75cd73_705931611141384345957.jpg",
       "thumbnail": "https://s199.imacdn.com/tt24/2022/04/20/db7a3bd48fd81a6a_0ff3e5d8a8bf1a1c_26704165046810819674.jpg",
-      "chapter_name": "192",
-      "chapter_slug": "chap-192",
+      "chapter_name": "81",
+      "chapter_slug": "chap-81",
+      "url": "https://truyentranh1.com/my-home-hero/chap-81",
       "description": "Vì lợi ích của đứa con gái, người đàn ông trung niên đã bắt đầu dấn thân vào hành trình phiêu lưu của đời mình. Toshio Tetsuo là một nhân viên"
     }
   ]
