@@ -28,6 +28,7 @@
   --weather-dark: #cacaca;
   --weather-sun: #333;
   --weather: var(--weather-dark);
+  //policy
 }
 
 html {
@@ -57,11 +58,23 @@ ul > li {
 .grid__row {
   display: flex;
   flex-wrap: wrap;
-  margin-left: -12px;
-  margin-right: -12px;
+  margin-left: -6px;
+  margin-right: -6px;
+  margin-top: -12px;
 }
 .grid__column-4 {
   width: 25%;
-  padding-left: 12px;
-  padding-right: 12px;
+  padding-left: 6px;
+  padding-right: 6px;
+  padding-top: 12px;
+}
+.grid__column-75 {
+  width: 75%;
+  padding-left: 6px;
+  padding-right: 6px;
+}
+.grid__column-6 {
+  width: 16.666666666666668%;
+  padding-left: 6px;
+  padding-right: 6px;
 }

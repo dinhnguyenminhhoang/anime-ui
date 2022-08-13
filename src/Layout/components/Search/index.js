@@ -11,7 +11,7 @@ import {
   faSpinner,
   faXmarkCircle,
 } from "@fortawesome/free-solid-svg-icons";
-import { faLess } from "@fortawesome/free-brands-svg-icons";
+ import { faLess } from "@fortawesome/free-brands-svg-icons";
 const cx = classNames.bind(styles);
 function Search({ children }) {
   const [searchValue, setSearchValue] = useState("");

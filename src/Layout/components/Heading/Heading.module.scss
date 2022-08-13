@@ -1,0 +1,25 @@
+.heading {
+  display: flex;
+  color: var(--font-color);
+  margin: 16px 0;
+  cursor: pointer;
+  &:hover {
+    filter: contrast(1.75);
+  }
+  transition: all 0.2s ease-in;
+}
+.content {
+  font-size: 2.6rem;
+  font-weight: 400;
+}
+.heading-btn {
+  color: var(--font-color);
+  font-size: 2rem;
+  margin-left: 10px;
+  position: relative;
+}
+.heading-btn--icon {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-41%);
+}

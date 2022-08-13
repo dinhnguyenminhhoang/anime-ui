@@ -7,6 +7,8 @@ import Movie from "~/pages/Movie";
 import News from "~/pages/News";
 import Comic from "~/pages/Comic";
 import Rank from "~/pages/Rank";
+import Download from "~/pages/Download";
+import Watching from "~/pages/Watching";
 const publicRouter = [
   {
     path: "/",
@@ -40,7 +42,14 @@ const publicRouter = [
   {
     path: "/policy",
     component: Policy,
-    layout: null,
+  },
+  {
+    path: "/download",
+    component: Download,
+  },
+  {
+    path: `/@$name`,
+    component: Watching,
   },
 ];
 const privateRouter = [];

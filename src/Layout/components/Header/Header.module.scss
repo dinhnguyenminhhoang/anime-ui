@@ -1,4 +1,6 @@
 .wrapper {
+  position: fixed;
+  z-index: 99;
   width: 100%;
   height: var(--defaultHeaderHeight);
   box-shadow: 0 0 1px 0 var(--border-header);

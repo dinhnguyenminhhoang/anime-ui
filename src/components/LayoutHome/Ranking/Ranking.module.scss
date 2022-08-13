@@ -1,0 +1,46 @@
+.ranking-item {
+  position: relative;
+  cursor: pointer;
+  &:hover .ranking-img {
+    transform: scale(1.1);
+    transition: all 0.4s ease;
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+}
+.ranking-wrapper--img {
+  overflow: hidden;
+}
+.ranking-img {
+  width: 210px;
+  height: 95px;
+  border-radius: 8px;
+  -webkit-transition: -webkit-transform 1s ease;
+  transition: -webkit-transform 1s ease;
+  transition: transform 1s ease;
+  transition: transform 1s ease, -webkit-transform 1s ease;
+}
+.ranking-container {
+  color: var(--white);
+  font-size: 1.6rem;
+  font-weight: 500;
+  margin: 0 8px;
+  position: absolute;
+  top: 4px;
+  text-align: center;
+}
+.chapter {
+  color: var(--white);
+  background-color: rgba(0, 0, 0, 0.6);
+  font-size: 1.3rem;
+  border: 1px solid var(--white);
+  font-weight: 600;
+  padding: 2px;
+  position: absolute;
+  bottom: 10px;
+  right: 12px;
+}
+.ranking__heading {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
