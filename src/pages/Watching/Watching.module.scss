@@ -1,0 +1,161 @@
+.player-video {
+  height: 540px;
+  width: 100%;
+  border: 1px dashed rgba(0, 0, 0, 0.3);
+}
+.video {
+  position: relative;
+}
+.player-control__wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  position: absolute;
+  bottom: 0;
+}
+.player-control-left,
+.player-control-right {
+  display: flex;
+}
+.player-play,
+.player-next,
+.player-flast,
+.player-pause,
+.player-back,
+.player-back_flast,
+.player-volume,
+.player-wheate,
+.player-setting,
+.player-full {
+  margin: 0 8px;
+  color: var(--white);
+  font-size: 1.8rem;
+  padding: 12px;
+  width: auto;
+}
+.sidebar__wrapper {
+  flex: 1;
+  margin: 0 8px;
+  color: #ccc;
+  font-size: 1.5rem;
+  font-weight: 400;
+  border: 1px solid var(--border-header);
+  max-height: 540px;
+  overflow: hidden;
+}
+.sidebar_heading,
+.sidebar_noty {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 10px;
+}
+.sidebar_noty {
+  font-size: 1.3rem;
+  border-top: 1px solid var(--border-header);
+  border-bottom: 1px solid var(--border-header);
+}
+.sidebar_episode {
+}
+.sidebar_episode--number {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.sidebar_episode-content {
+  margin-right: 4px;
+}
+.sidebar_icon-btn {
+  color: var(--white);
+  background-color: var(--background-icon-header);
+  font-size: 1.2rem;
+  padding: 3px;
+}
+.sidebar_icon-btn > span {
+  margin-right: 28px;
+  padding-left: 12px;
+}
+.sidebar__icon-play {
+  margin-right: 4px;
+}
+.watch_noty {
+  margin-top: 32px;
+}
+.noty__heading {
+  display: flex;
+  flex-direction: column;
+  color: #ccc;
+}
+.watch_noty-name {
+  font-size: 2.2rem;
+  font-weight: 400;
+}
+.watch_noty-views {
+  font-size: 1.4rem;
+  margin: 12px 0;
+}
+.watch_btn-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 8px;
+}
+.watch_btn--left {
+  display: flex;
+}
+.watch_btn__like,
+.watch_btn__following,
+.watch_btn__Share {
+  color: var(--white);
+  display: flex;
+  padding: 8px 4px;
+  align-items: center;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.watch_btn__like {
+  background-color: #e5525e;
+}
+.watch_btn--icon {
+  color: var(--white);
+  margin: 0 4px;
+}
+.watch_btn--content {
+  display: flex;
+  align-items: center;
+}
+.watch_btn--number {
+  margin: 0 4px;
+  padding: 0 2px 0 6px;
+  background-color: var(--white);
+  color: #888;
+  font-size: 1.2rem;
+  line-height: 1.2rem;
+  border-radius: 5px;
+}
+.watch_btn__following {
+  background-color: #0e6f6a;
+  margin: 0 10px;
+}
+.watch_btn__Share {
+  background-color: #4267b2;
+}
+.noty__footer {
+  font-size: 1.4rem;
+  color: #ccc;
+  line-height: 3rem;
+  margin: 8px 0;
+}
+.noty__footer > span > a {
+  color: var(--font-color);
+  font-size: 1.4rem;
+  margin-left: 2px;
+}
+
+.noty__type {
+  display: flex;
+  font-size: 1.4rem;
+}
+.noty__collection {
+  display: flex;
+}

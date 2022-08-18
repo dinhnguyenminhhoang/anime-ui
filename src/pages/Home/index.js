@@ -26,7 +26,6 @@ function Home() {
   const [manga, setManga] = useState([]);
   const [picked, setPicked] = useState([]);
   const [ranking, setRanking] = useState([]);
-  const [all, setAll] = useState([]);
   useEffect(() => {
     fetch("http://localhost:3000/film")
       .then((res) => res.json())
